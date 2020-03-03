@@ -1,4 +1,4 @@
-""" number guessing game from 1-100 where number is randomly generated """
+""" number guessing game where an integer from 1-100 is randomly generated """
 import numpy as np
 np.random.seed()
 
