@@ -9,7 +9,7 @@ def main(): #initializes program
     rand_num = np.random.randint(1,101) #generates a random integer
     found = False                       #from 1 to 100
     while not found:
-        guess = eval(input('Your guess: '))
+        guess = input('Your guess: ')
         if guess == rand_num:
             print('You got it!')
             found = True
